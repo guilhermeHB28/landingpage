@@ -1,0 +1,62 @@
+.main-bg {
+  background-image: url('../img/MC-Vanilla_Media-Block-Image_PC-Bundle-Keyart_800x450.png');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+.alt-bg {
+  background-image: url('../img/2615e69bc4e9bf743c27cca6b873b32b.png');
+  background-size: auto;
+  background-position: center center;
+  color: var(--white-color);
+}
+.alt2-bg {
+  background-image: url('../img/2615e69bc4e9bf743c27cca6b873b32b.png');
+  background-size: auto;
+  background-position: center center;
+  color: var(--dark-bg)
+}
+.secondary-bg {
+  background-image: url('../img/download\ \(8\).jpeg');
+  background-size: auto;
+  background-position: center center;
+  color: var(--white-color);
+}
+.dark-bg {
+  height: 120px;
+  background-color: var(--dark-bg);
+  background-size: cover;
+  color: var(--white-color);
+  text-align: center;
+}
+
+.white-bg {
+  background-image: url('../img/download\ \(8\).jpeg')
+
+}
+
+.main-content {
+  max-width: 120rem;
+  /* 120rem = 1200px */
+  margin: 0 auto;
+  /* padding: 3rem; */
+  padding: 10rem var(--gap);
+  /* correção */
+  color: var(--white-color)
+}
+
+.section {
+  min-height: 100vh;
+  /* parte 3/4 */
+  /* color: var(--primary-color); */
+}
+
+/* parte 3 */
+.menu-spacing {
+  height: 6.5rem;
+}
+
+body .full-width{
+  width: 100%;
+  flex: 1 1 100%;
+}
